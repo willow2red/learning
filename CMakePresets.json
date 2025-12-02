@@ -1,0 +1,26 @@
+{
+	"version": 10,
+	"configurePresets": [
+		{
+			"name": "default",
+			"generator": "MinGW Makefiles",
+			"binaryDir": "${sourceDir}/build",
+			"cacheVariables": {
+				"CMAKE_C_COMPILER": "C:/Willow2/mingw64/bin/gcc.exe",
+				"CMAKE_CXX_COMPILER": "C:/Willow2/mingw64/bin/g++.exe"
+			},
+			"vendor": {
+				"willow2": {
+					"desc": "This is for comment only",
+					"binaryDir": "${sourceDir}/build"
+				}
+			}
+		}
+	],
+	"buildPresets": [
+		{
+			"name": "default",
+			"configurePreset": "default"
+		}
+	]
+}
